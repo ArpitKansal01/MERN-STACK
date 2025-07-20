@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(211, 211, 211, 0.791);
+}
+.bike{
+    background-color: white;
+    height: 580px;
+    width: 97%;
+    /* margin-left: 25px; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+.details{
+    padding: 15px ;
+    
+    /* margin-top: 1px; */
+}
+   @font-face {
+     font-family: 'MyCustomFont';
+     src: url('./assets/Transcity.otf'); /* Correct path to your font file */
+     /* font-weight: bold; */
+     /* font-style: italic; */
+   }
+.details h1{
+    font-family: "MyCustomFont";
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+.heading{
+    display:flex;
+    justify-content:space-between;
+}
+.heading span{
+    /* padding-top: 10px; */
+    font-size: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    padding-bottom: 15px;
+    width:auto;
+    margin-top: 8px;
+    max-height: 13px;
+}
+p{
+    margin-top: 15px;
+    color: gray;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.bikelist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap:10px; */
+    margin-top: 25px;
+}
+.MAIN img{
+    /* padding-top: 10px; */
+    padding-left: 20px;
+    width: 97%;
+}
+/* .remove{
+    color:white;
+    background-color: red;
+    padding: 20px;
+    align-self:center;
+} */

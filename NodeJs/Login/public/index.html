@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form class="form contact-form">
+            <h5>Login/Register</h5>
+            <div class="form-row">
+            <label for="username" class="form-label">username</label>
+            <input type="text" class="form-input username-input">
+            </div>
+            <div class="form-row">
+            <label for="password" class="form-label">password</label>
+            <input type="password" class="form-input password-input">
+            </div>
+            <div class="text-small form-alert">There was an Error</div>
+            <button type="submit" class="btn btn-block">submit</button>
+        </form>
+        <div class="container">
+            <h4>Dashboard</h4>
+
+            <p class="token">no token present</p>
+            <div class="result"></div>
+            <button class="btn btn-block" id="data">getdata</button>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.10.0/axios.min.js" integrity="sha512-WkZrEcQ5LMyNy6Y2PQf+Tu3vMcsmKKRKuPXtJSTHQJ3mpuvLRlA5dlDDhrrcXfyWr6Z/y3wIMfjfqVFO/gDZYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

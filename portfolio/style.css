@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation-link a {
+  color: inherit;
+}
+.navigation-bar {
+  /* border: 2px solid white; */
+  height: 88px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.navigation-links ul {
+  display: flex;
+  gap: 16px;
+}
+.hero-content h3{
+  padding-top: 80px;
+}
+
+/* Hero section */
+.hero-section {
+  padding-bottom: 220px;
+  min-height: 400px;
+  height: auto;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.hero-content{
+  height: 650px;
+  background-image: url('ARPIT KANSAL.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@keyframes slideInTop {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.hero-section h1 {
+  font-size: 80px;
+  padding-top: 100px;
+  /* transform: rotate(30deg); */
+  /* transform: translateX(-100px); */
+  /* transform: scale(0.5); */
+
+  /* transition-property: transform color;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: linear; */
+
+  animation-name: slideInTop;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+
+  animation-direction: normal;
+  animation-direction: alternate;
+  animation-direction: reverse;
+  animation-direction: alternate-reverse;
+  animation-direction: normal;
+
+  /* original - from - to - original */
+  /* animation-fill-mode: none; */
+  /* original - from - to */
+  /* animation-fill-mode: forwards; */
+  /* from - to - original */
+  /* animation-fill-mode: backwards; */
+  /* from - to */
+  animation-fill-mode: both;
+  margin-bottom: 32px;
+}
+.underline {
+  border-bottom: 4px solid lightgreen;
+}
+
+/* .hero-section h1:hover {
+  transform: translateX(50px);
+  color: lightgreen;
+} */
+
+/* @media (width >= 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (width >= 800px) {
+  body {
+    background-color: green;
+  }
+} */
+
+/* @media (600px <= width <= 800px) {
+  body {
+    background-color: red;
+  }
+} */
+
+.hero-section p {
+  font-size: 20px;
+  width: 420px;
+  margin-bottom: 32px;
+  animation-name: slideInTop;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+
+  animation-direction: normal;
+  animation-direction: alternate;
+  animation-direction: reverse;
+  animation-direction: alternate-reverse;
+  animation-direction: normal;
+
+}
+
+.hero-section button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-top: 60px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  border-bottom: 2px solid lightgreen;
+  animation-name: slideInTop;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+
+  animation-direction: normal;
+  animation-direction: alternate;
+  animation-direction: reverse;
+  animation-direction: alternate-reverse;
+  animation-direction: normal;
+
+}
+.skills-section h1{
+  font-size: 80px;
+  padding-top: 20px; 
+}
+.skill-section{
+  padding-top: 10px;
+  padding-bottom:40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px;
+  border-bottom: 2px solid white;
+}
+.skill-article{
+  padding: 50px;
+}
+.skill-article h3{
+  font-size: 40px;
+}
+
+@media (width<=500px){
+  .skill-section{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.project-section h1{
+  font-size: 80px;
+}
+.project-section button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-top: 60px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  border-bottom: 2px solid lightgreen;
+}
+.project-article h3{
+  font-size: 35px;
+}
+.projects-article{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  border-bottom: 2px solid white;
+}
+.project-article img{
+  width: 100%;
+}
