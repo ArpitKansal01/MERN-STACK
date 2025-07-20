@@ -5,7 +5,7 @@ const connectDB =require("./db/connect")
 const tasks = require("./routes/tasks")
 
 
-const url = `mongodb+srv://kansalarpit81:root1234@arpitkansal.ttyiqxw.mongodb.net/Task-Manager?retryWrites=true&w=majority&appName=ArpitKansal`
+const url = ``
 
 app.use("/api/v1/tasks",tasks)
 
